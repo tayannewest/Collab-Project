@@ -1,6 +1,5 @@
-import React from 'react'
-import styled from "styled-components"
-
+import React from 'react';
+import styled from 'styled-components';
 
 const Card = styled.div`
     width: 100%;
@@ -18,16 +17,17 @@ const Body = styled.section`
     align-content: center;
 `
 
-const Homepage = () => {
+const About = () => {
     return (
         <>
             <Body>
                 <Card>
-                    <h1>Home Page</h1>
+                    <h1>About Page</h1>
                 </Card>
             </Body>
         </>
     )
 }
 
-export default Homepage
+export default About
+

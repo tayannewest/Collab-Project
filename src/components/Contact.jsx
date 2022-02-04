@@ -18,16 +18,16 @@ const Body = styled.section`
     align-content: center;
 `
 
-const Homepage = () => {
+const Contact = () => {
     return (
         <>
             <Body>
                 <Card>
-                    <h1>Home Page</h1>
+                    <h1>Contact Page</h1>
                 </Card>
             </Body>
         </>
     )
 }
 
-export default Homepage
+export default Contact
