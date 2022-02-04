@@ -1,5 +1,5 @@
 {
-  "name": "react-crypto",
+  "name": "collaboration-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,17 +10,16 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.17.3",
     "axios": "^0.24.0",
-    "chart.js": "^3.6.2",
     "html-react-parser": "^1.4.3",
-    "millify": "^4.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
-    "react-chartjs-2": "^4.0.0",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.1.1",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.2"
+    "react-three-fiber": "^6.0.13",
+    "styled-components": "^5.3.3",
+    "three": "^0.137.5"
   },
   "scripts": {
     "start": "react-scripts start",

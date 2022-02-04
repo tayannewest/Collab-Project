@@ -1,8 +1,11 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
-import { Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails } from './components'
+import { Navbar, Homepage } from './components'
 import './App.css'
+import Products from './components/Products';
+import About from './components/About';
+import Contact from './components/Contact';
 
 const App = () => {
     return (
@@ -15,22 +18,22 @@ const App = () => {
                     <div className='routes'>
                         <Routes>
                             <Route path='/' element={<Homepage />} />
-                            <Route path='/exchanges' element={<Exchanges />} />
-                            <Route path='/cryptocurrencies' element={<Cryptocurrencies />} />
-                            <Route path='/crypto/:coinId' element={<CryptoDetails />} />
-                            <Route path='/news' element={<News />} />                             
+                            <Route path='/About' element={<About />} />
+                            <Route path='/Products' element={<Products />} />
+                            <Route path='/Contact' element={<Contact />} />                             
                         </Routes>
                     </div>
                 </Layout>
                 <div className='footer'>
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center'}}>
-                        DarkCrypto <br />
+                        Collab Project <br />
                         All Rights Reserved
                     </Typography.Title>
                     <Space>
                         <Link to="/">Home</Link>
-                        <Link to="/exchanges">Exchanges</Link>
-                        <Link to="/news">News</Link>
+                        <Link to="/About">Exchanges</Link>
+                        <Link to="/Products">Products</Link>
+                        <Link to="/Contact">Contact</Link>
                     </Space>
                 </div>
             </div>

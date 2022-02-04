@@ -5,13 +5,10 @@ import { Provider } from 'react-redux';
 
 import App from './App'
 import 'antd/dist/antd.css';
-import store from './app/store';
 
 
 ReactDOM.render(
     <Router>
-        <Provider store={store}>
-            <App />
-        </Provider>
+        <App />
     </Router>,
     document.getElementById('root'));
